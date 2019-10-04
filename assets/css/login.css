@@ -1,0 +1,35 @@
+#email{
+  border: 2px solid black;
+  height: 30px;
+  border-radius: 10px;
+
+}
+#email:focus {
+  border-radius: 0px;
+}
+#password{
+  border: 2px solid black;
+  height: 30px;
+  border-radius: 10px;
+}
+#password:focus{
+  border-radius: 0px;
+}
+.btn-green{
+  background-color: #1a014c;
+  transition: .7s;
+}
+.btn-green:hover{
+  background-color: transparent;
+  border: 2px solid #1a014c;
+  color: black;
+  transition: .7s;
+}
+.send{
+  width: 40%;
+  height: 300px;
+  border: 2px solid black;
+  margin-left: 30%;
+  padding: 30px;
+  border-radius: 20px;
+}
